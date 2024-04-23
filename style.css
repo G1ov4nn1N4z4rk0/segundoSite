@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    /*aplica imagem*/
+    background-image:url(img/Forrester.webp);
+    /*nao repete a imagem*/
+    background-repeat: no-repeat ;
+    /*cobrir fundo com a mesma imagem*/
+    background-size: cover;
+}
+.h1{
+    text-transform: uppercase;
+    font-size: 70px;
+    color: white;
+}
+.login {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.inputNome{
+    /*largura*/
+    width: 550px;
+    /*altura*/
+    height: 40px;
+    /*arredondar a borda*/
+    border-radius: 15px;
+    border-style: none;
+}
+
+.inputEmail{
+border-radius: 15px;
+}
+.titulos{
+    
+    width: 500px;
+    height: 400px;
+    font-size: 30px;
+    
+    
+}
+
+.informacoes{
+    /*flex-direction -- ele muda a direcao que vai ser alinhado*/
+    height:  700px;
+    display: flex; /*posso movimentar (caixas)*/ 
+    flex-direction: row;/*deixa em linha row=linha*/
+    justify-content: space-around;/*deixa espaco sem encontar no final*/
+    align-items: center;
+    color: white;
+}
+
+.inputs{
+    background-color: rgb(134, 71, 34);
+    display: flex;/*libera para movimentar a caixa*/
+    flex-direction: column;
+    justify-content: space-around;/*separa a column*/
+    width: 450px;
+    height: 500px;
+    border-radius: 15px;
+    align-items: center;
+
+    
+}
+
+.inputs2{
+    display: flex;/*libera para movimentar a caixa*/
+    flex-direction: column;
+    justify-content: space-around;/*separa a column*/
+    width: 80%;
+}
+
+.inputs2 input{
+    border-radius: 15px;
+    height: 30px;
+    border: none;
+    margin-bottom: 5%;
+}
+.botaoLogin{
+    background-color: bisque;
+    border: none;
+    color: rgb(107, 30, 0);
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
